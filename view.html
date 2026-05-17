@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Data Keeper – View</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">✦ DataVault</div>
+    <div class="nav-links">
+      <a href="index.html"><i class="fas fa-plus-circle"></i> Data Entry</a>
+      <a href="view.html" class="active"><i class="fas fa-table"></i> View Data</a>
+    </div>
+  </nav>
+
+  <div class="glass-card" style="max-width: 1200px; margin: 0 auto;">
+    <h2>📊 Data Viewer</h2>
+    
+    <div class="filter-bar">
+      <select id="categoryFilter">
+        <option value="items">Items Details</option>
+        <option value="samples">Sample Details</option>
+        <option value="cleaning">Cleaning Details</option>
+        <option value="persons">Person Details</option>
+      </select>
+
+      <select id="periodFilter">
+        <option value="all">All Time</option>
+        <option value="daily">Today</option>
+        <option value="weekly">This Week</option>
+        <option value="monthly">This Month</option>
+        <option value="yearly">This Year</option>
+      </select>
+
+      <button class="btn" id="downloadBtn"><i class="fas fa-download"></i> Download</button>
+    </div>
+
+    <div id="dataContainer" style="overflow-x: auto;">
+      <p>Loading data...</p>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="view.js"></script>
+</body>
+</html>
