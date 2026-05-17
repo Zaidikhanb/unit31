@@ -140,7 +140,7 @@ function renderAllSections() {
   html += '</div>';
 
   // ---- CLEANING SECTION ----
-  html += renderMainCategoryHeader('Cleaning Details', 'cleaning');
+  html += renderMainCategoryHeader('Clipping Details', 'cleaning');
   if (allData.cleaning.length) {
     html += '<table class="data-table"><thead><tr><th>Date/Time</th><th>In/Out</th><th>Size (Guzz)</th><th>Person</th><th></th></tr></thead><tbody>';
     allData.cleaning.forEach(entry => {
