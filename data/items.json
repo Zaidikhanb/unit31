@@ -34,5 +34,15 @@
     "quantity": "1",
     "personName": "Z",
     "color": "Red"
+  },
+  {
+    "id": "mp99hvw6xgo1w",
+    "timestamp": "2026-05-17T04:15:15.126Z",
+    "inOut": "in",
+    "itemType": "cone",
+    "quantity": "1",
+    "personName": "Z",
+    "color": "Red",
+    "grade": "34"
   }
 ]
