@@ -53,5 +53,17 @@
     "quantity": "1",
     "personName": "Z",
     "color": "Red"
+  },
+  {
+    "id": "mp99iw6ctcwzg",
+    "timestamp": "2026-05-17T04:16:02.148Z",
+    "inOut": "in",
+    "itemType": "otherItem",
+    "itemName": "New Item",
+    "quantity": "1",
+    "size": "22",
+    "grade": "3011",
+    "color": "Red",
+    "personName": "Z"
   }
 ]
