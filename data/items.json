@@ -7,5 +7,14 @@
     "quantity": "1",
     "personName": "Z",
     "color": "Red"
+  },
+  {
+    "id": "mp99ffvyj3omu",
+    "timestamp": "2026-05-17T04:13:21.070Z",
+    "inOut": "in",
+    "itemType": "cdSequence",
+    "quantity": "1",
+    "personName": "Z",
+    "color": "Red"
   }
 ]
