@@ -16,5 +16,14 @@
     "quantity": "1",
     "personName": "Z",
     "color": "Red"
+  },
+  {
+    "id": "mp99fqlamf9qn",
+    "timestamp": "2026-05-17T04:13:34.942Z",
+    "inOut": "in",
+    "itemType": "roleFussing",
+    "quantity": "1",
+    "personName": "Z",
+    "color": "Red"
   }
 ]
